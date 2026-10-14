@@ -1,0 +1,28 @@
+{
+  "name": "nuvio-fuegocine-addon",
+  "version": "1.0.0",
+  "description": "Addon oficial y compatible para Nuvio y Stremio con catálogo de películas, series y anime de FuegoCine en español latino y castellano.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "nuvio",
+    "stremio",
+    "stremio-addon",
+    "fuegocine",
+    "peliculas",
+    "series",
+    "latino"
+  ],
+  "author": "FuegoCine Community",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
