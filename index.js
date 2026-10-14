@@ -6,7 +6,7 @@ import express from 'express';
 import { fetchPosts, getMeta, getStreams } from './scraper.js';
 
 const app = express();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 10000;
 
 // Manifest del Addon para Nuvio y Stremio
 const MANIFEST = {
